@@ -8,6 +8,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 8px 8px 8px;
 }
 header .div_logo {
   width: 20%;
@@ -55,12 +56,20 @@ header .li_redes:hover {
   transition: 2s;
 }
 
+body {
+  background-color: black;
+}
+
 #main_grilla {
   display: grid;
-  grid-template-columns: 10% 35% 35% 10%;
+  grid-template-columns: 8% 40% 40% 8%;
+  grid-template-rows: 45% 45%;
   background-color: black;
   justify-content: space-between;
+  align-content: space-between;
+  justify-items: center;
   height: 1500px;
+  margin-top: 120px;
 }
 #main_grilla .div_hidden {
   visibility: hidden;
