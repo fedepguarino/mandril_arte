@@ -1,5 +1,14 @@
 *{box-sizing: 0;}
 
+@font-face {
+    font-family:lindafont;
+    src: url(../fonts/lindafont.ttf);
+}
+@font-face {
+    font-family:cursiva;
+    src: url(../fonts/cursiva.ttf);
+}
+
 header{
     height: 90px;
     background-color: rgb(61, 58, 58);
@@ -101,14 +110,14 @@ label{
 
 }
 
-body{
+#body{
     background-color: black;
 }
 
 #main_grilla_index{
         display: grid;        
         grid-template-columns: 8% 40% 40% 8%;
-        grid-template-rows: 50% 50%;        
+        grid-template-rows: 45% 45%;        
         background-color: black;        
         justify-content: space-between; 
         align-content: space-between;
@@ -126,23 +135,40 @@ body{
         }
 
         #h1_texto{
-            font-family: 'Zen Dots', cursive;
-            font-size: 90px;
-            color: rgba(83, 27, 88, 0.678);
+            font-family:lindafont;
+            font-size: 50px;
+            color: rgba(255, 255, 255, 0.678);
+            background: linear-gradient(yellow,orange, red);
+            -webkit-background-clip: text;
+            color: transparent;  
+            margin-top: 60px;
             
         }
-        h2{
-            font-family: 'Zen Dots', cursive;
-            font-size: 60px;
-            color: rgba(83, 27, 88, 0.678);
-            padding-top: 50px;
+        #h2_texto{
+            font-family:lindafont;
+            font-size: 45px;
+            
+            padding-top: 100px;
+            background: linear-gradient(yellow,orange, red);
+            -webkit-background-clip: text;
+            color: transparent;  
         }
-        p{
-            font-family: 'Zen Dots', cursive;
-            font-size: 50px;
-            color: rgba(83, 27, 88, 0.678);
-            padding-top: 50px;
+        #p_texto{
+            font-family:cursiva;
+            text-decoration: underline;
+            font-size: 80px;            
+            padding-top: 100px;
+            text-align: center;
+            background: linear-gradient(red,orange, yellow);
+            -webkit-background-clip: text;
+            color: transparent;
+            text-decoration: underline;
+            
         }
+
+        
 }
+
+
 
 
