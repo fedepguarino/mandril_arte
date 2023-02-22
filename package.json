@@ -1,7 +1,6 @@
 {
   "name": "mandril-arte",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,5 +12,15 @@
   "dependencies": {
     "nodemon": "^2.0.20",
     "sass": "^1.56.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedepguarino/mandril_arte.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fedepguarino/mandril_arte/issues"
+  },
+  "homepage": "https://github.com/fedepguarino/mandril_arte#readme",
+  "description": ""
 }
